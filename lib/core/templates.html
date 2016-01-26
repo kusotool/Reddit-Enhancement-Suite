@@ -391,11 +391,11 @@
 				</video>
 				</a>
 				<div style="height: 35px;" class="ctrlContainer">
-					<div style="width: 90px; height: 25px; float: right; padding: 5px; display: none;" class="ctrlBox">
-						<div  class="res-icon res-lightweight-player-controls gfyRCtrlFaster" >&#xf14c;</div>
-						<div  class="res-icon res-lightweight-player-controls gfyRCtrlSlower" >&#xf14d;</div>
-						<div  class="res-icon res-lightweight-player-controls gfyRCtrlReverse" style="margin-right: 6px;">&#xf169;</div>
-						<div  class="res-icon res-lightweight-player-controls gfyRCtrlPause" style="marginright: 4px;">&#xf16c;</div>
+					<div style="height: 25px; float: right; padding: 5px; display: none;" class="ctrlBox">
+						<div class="res-icon res-lightweight-player-controls gfyRCtrlPause" style="margin-left: 6px; cursor: pointer;">&#xf16c;</div>
+						<div class="res-icon res-lightweight-player-controls gfyRCtrlReverse" style="margin-left: 6px; cursor: pointer;">&#xf169;</div>
+						<div class="res-icon res-lightweight-player-controls gfyRCtrlSlower" style="margin-left: 6px; cursor: pointer;">&#xf14d;</div>
+						<div class="res-icon res-lightweight-player-controls gfyRCtrlFaster" style="margin-left: 6px; cursor: pointer;">&#xf14c;</div>
 					</div>
 				</div>
 			</div>
@@ -416,9 +416,9 @@
 						<a target="_blank" class="res-icon res-lightweight-player-controls gifyoutube-source-button">Watch Full Video</a>
 					</div>
 					<div class="gifyoutube-controls">
-						<div class="res-icon res-lightweight-player-controls gifyoutubeCtrlSlower" >&#xf169;</div>
-						<div class="res-icon res-lightweight-player-controls gifyoutubeCtrlPause" style="marginright: 4px;">&#xf16c;</div>
-						<div class="res-icon res-lightweight-player-controls gifyoutubeCtrlFaster" >&#xf16d;</div>
+						<div class="res-icon res-lightweight-player-controls gifyoutubeCtrlSlower">&#xf169;</div>
+						<div class="res-icon res-lightweight-player-controls gifyoutubeCtrlPause">&#xf16c;</div>
+						<div class="res-icon res-lightweight-player-controls gifyoutubeCtrlFaster">&#xf16d;</div>
 					</div>
 				</div>
 			</div>
@@ -524,6 +524,43 @@
 			</div>
 		</div>
 
+<<<<<<< HEAD
+=======
+		<style id="RESHoverStyle" type="text/css">
+			.RESHover, .RESHover.RESDialogSmall { display: none; position: absolute; z-index: 10001; }
+
+			.RESHoverInfoCard:before { content: ""; position: absolute; top: 10px; left: -26px; border-style: solid; border-width: 10px 29px 10px 0; border-color: transparent #c7c7c7; display: block; width: 0; z-index: 1; }
+			.RESHoverInfoCard:after { content: ""; position: absolute; top: 10px; left: -24px; border-style: solid; border-width: 10px 29px 10px 0; border-color: transparent #f0f3fc; display: block; width: 0; z-index: 1; }
+			.RESHoverInfoCard.right:before { content: ""; position: absolute; top: 10px; right: -26px; left: auto; border-style: solid; border-width: 10px 0 10px 29px; border-color: transparent #c7c7c7; display: block; width: 0; z-index: 1; }
+			.RESHoverInfoCard.right:after { content: ""; position: absolute; top: 10px; right: -24px; left: auto; border-style: solid; border-width: 10px 0 10px 29px; border-color: transparent #f0f3fc; display: block; width: 0; z-index: 1; }
+			.RESHoverInfoCard.below:before, .RESHoverInfoCard.below:after { content: none; }
+		</style>
+
+
+		<style id="commentNavigatorCSS" type="text/css">
+			#REScommentNavBox { clear: both; margin-top: 10px; width: 265px; border: 1px solid gray; background-color: #fff; opacity: 0.3; user-select: none; -webkit-user-select: none; -moz-user-select: none; -webkit-transition:opacity 0.5s ease-in; -moz-transition:opacity 0.5s ease-in; -o-transition:opacity 0.5s ease-in; -ms-transition:opacity 0.5s ease-in; -transition:opacity 0.5s ease-in; }
+			#REScommentNavBox:hover { opacity: 1 }
+			#REScommentNavToggle { clear: left; }
+			.commentarea .menuarea { margin-right: 0; }
+			.menuarea > .spacer { margin-right: 0; }
+			#commentNavButtons { margin: auto; }
+			#commentNavUp, #commentNavDown { cursor: pointer; color: #1278D3; border: none; background: transparent; padding: 0; font-size: 35px; line-height: 0.9; }
+			#commentNavUp:focus, #commentNavDown:focus { outline: none; text-shadow: 0 0 5px #1278D3; }
+			#commentNavUp[disabled], #commentNavDown[disabled] { opacity: 0.3; cursor: default; }
+			#commentNavButtons { display: none; margin-left: 12px; text-align: center; user-select: none; -webkit-user-select: none; -moz-user-select: none; }
+			.commentNavSortType { cursor: pointer; font-weight: bold; display: inline-block; }
+			#commentNavPostCount { color: #1278d3; }
+			.noNav #commentNavPostCount { color: #666; }
+			.commentNavSortTypeDisabled { color: #666; }
+			.commentNavSortType:hover { text-decoration: underline; }
+			.commentNavSortType + .commentNavSortType {
+				border-left: 1px #ccc solid;
+				margin-left: 0.5em;
+				padding-left: 0.5em;
+			}
+			.menuarea > .spacer { float: left; margin-bottom: 10px; }
+		</style>
+>>>>>>> root_branch3/release/4.6.1
 
 		<div id="commentNavigator">
 			<h3>
@@ -573,5 +610,80 @@
 				opacity: 1.0;
 			}
 		</style>
+<<<<<<< HEAD
+=======
+
+		<style type="text/css" id="neverEndingReddit-CSS">
+			#NERModal { display: none; z-index: 999; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background-color: #333; opacity: 0.6; }
+			#NERContent { display: none; position: fixed; top: 40px; z-index: 1000; width: 720px; background-color: #FFF; color: #000; padding: 10px; font-size: 12px; }
+			#NERModalClose { position: absolute; top: 3px; right: 3px; }
+			#NERFail { min-height: 30px; width: 95%; font-size: 14px; border: 1px solid #999; border-radius: 10px; padding: 5px; text-align: center; bgcolor: #f0f3fc; cursor: auto; }
+			#NERFail .nextprev { font-size: smaller; display: block; }
+			#NERFail .nextprev a + a { margin-left: 2em; }
+			.NERdupe p.title:after { color: #000; font-size: 10px; content: ' (duplicate from previous page)'; }
+			.NERPageMarker { text-align: center; color: #7f7f7f; font-size: 14px; margin-top: 6px; margin-bottom: 6px; overflow: hidden; font-weight: normal; background-color: #f0f3fc; border: 1px solid #c7c7c7; border-radius: 3px; padding: 3px 0; }
+			/* hide next/prev page and random subreddit indicators */
+			.res-ner-listing div.nav-buttons { display: none; }
+			.res-ner-listing .nav-buttons .nextprev { display: none; }
+			.res-ner-listing ~ .nextprev { display: none; } /* /about/log */
+			.res-ner-fade-dupes .NERdupe { opacity: 0.3; }
+			.res-ner-hide-dupes .NERdupe { display: none; }
+			/* set the style for our little loader widget */
+			#progressIndicator {
+				height: 60px;
+				display: -webkit-flex; -webkit-align-items: center; -webkit-justify-content: center; -webkit-flex-direction: column;
+				display: flex; align-items: center; justify-content: center; flex-direction: column;
+				font-size: 14px; border: 1px solid #999; border-radius: 10px; padding: 10px; background-color: #f0f3fc; cursor: pointer;
+			}
+			#progressIndicator h2 { margin-bottom: .5em; }
+			#progressIndicator .gearIcon { margin-left: 1em; }
+			#progressIndicator .RESThrobber { margin-top: 10px; margin-bottom: 0; }
+			#NREPause { cursor: pointer; }
+			#NREPause::after { font: normal 100% Batch; color: #888; display: block; width: 10px; height: 10px; padding: 0 2px 4px; margin: 3px; border: 1px solid #888; border-radius: 50%; }
+			#NREPause::after, #NREPause.paused.reversePause::after { content: "\F16C"; }
+			#NREPause.paused::after, #NREPause.reversePause::after { content: "\F16B"; }
+		</style>
+
+		<style type="text/css" id="searchHelper-searchPageTabs">
+			/* reddit search page tabs */
+			ul.res-search-tabs li.res-search-tab-facets a:before {
+				content: "\F0B7";
+			}
+			ul.res-search-tabs li.res-search-tab-subs a:before {
+				content: "\F030";
+			}
+			ul.res-search-tabs li.res-search-tab-options a:before {
+				content: "\F06B";
+			}
+
+			.search-page .searchpane { height: auto; }
+			.search-page #search { margin: 0; height: auto; position: static; }
+			.combined-search-page #previoussearch .searchfacets { max-width: none; border: none; padding: 0 0 0; margin: 0; overflow: visible; }
+			.combined-search-page #previoussearch .searchfacets h4.title { display: none; }
+			.combined-search-page #previoussearch .searchfacets ol { padding: 10px 0 0 0; }
+			.combined-search-page #previoussearch .search-result-group-header { display: none; }
+			ul.res-search-tabs { margin: 10px 0 0 0; padding: 0; list-style: none; clear: left; }
+			ul.res-search-tabs li { font-weight: bold; display: inline-block; margin: 0 2px 0 0; padding: 0; background: linear-gradient(to top, rgb(240,240,240), rgb(225,225,225)) }
+			ul.res-search-tabs li:last-child { margin-right: none; }
+			ul.res-search-tabs li.res-search-tab-active { background: rgb(255,255,255); }
+			ul.res-search-tabs a { border-top: 1px solid transparent; padding: 5px 5px 5px 10px; display: inline-block;  }
+			ul.res-search-tabs li a:after { content: "+"; text-align: center; display: inline-block; padding: 0 3px; width: 1em; visibility: hidden; }
+			ul.res-search-tabs li.res-search-tab-active a:after { content: "-"; }
+			ul.res-search-tabs li:hover a:after { visibility: visible; }
+			ul.res-search-tabs li.res-search-tab-active a { border-color: rgb(51,102,153) }
+			.res-search-options { margin: 0; padding: 0; line-height: 1.5; }
+			.res-search-options p { margin: 10px 0; }
+			.res-search-options dl { padding: 15px; -webkit-column-count: 2; -moz-column-count: 2; }
+			.res-search-options dt { font-weight: normal; margin-left: 0; }
+			.res-search-options dd { margin: 0 0 5px; color: rgb(150,150,150); }
+			.combined-search-page #previoussearch .search-result-group { margin: 0; padding: 0; }
+			.combined-search-page #previoussearch .search-result { margin: 0 0 15px; padding: 0; }
+			.combined-search-page #previoussearch .search-result-listing { margin: 0; }
+			.combined-search-page #previoussearch .res-search-pane { padding: 10px; background-color: rgb(255,255,255); }
+			.combined-search-page .search-result-group footer .nav-buttons { margin-bottom: 0; }
+			ul.res-search-tabs li.res-search-tab-facets a:before, ul.res-search-tabs li.res-search-tab-subs a:before, ul.res-search-tabs li.res-search-tab-options a:before { font: 100%/1 "Batch"; display: inline-block; margin-right: 10px; }
+
+		</style>
+>>>>>>> root_branch3/release/4.6.1
 	</body>
 </html>

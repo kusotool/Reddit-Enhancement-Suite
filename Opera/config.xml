@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" version="0.9000.1" id="extensions:res-extension">
+	<name>Reddit Enhancement Suite</name>
+	<description>RES provides several addons to enhance your browsing experience - each of which is configurable. You can enable/disable any of the modules, and most of them have their own options that can also be personalized.</description>
+	<update-description href="http://redditenhancementsuite.com/update-opera.php?v=0.9000.1"/>
+	<author href="http://www.honestbleeps.com/">Steve Sobel</author>
+	<access origin="http://reddit.com" subdomains="true" />
+	<access origin="https://ssl.reddit.com" />
+	<access origin="http://redditenhancementsuite.com" />
+	<access origin="http://api.twitter.com" />
+	<access origin="http://api.imgur.com" />
+	<access origin="https://api.imgur.com" />
+	<access origin="http://min.us" />
+	<access origin="http://flickr.com" subdomains="true" />
+	<access origin="http://photobucket.com" subdomains="true" />
+	<access origin="http://gdata.youtube.com" />
+	<access origin="http://backend.deviantart.com" />
+	<access origin="http://api.tumblr.com" />
+	<access origin="http://noembed.com" />
+	<access origin="http://gfycat.com" />
+	<access origin="https://gfycat.com" />
+	<access origin="http://fitmabob.com" />
+	<access origin="https://fitmabob.com" />
+	<access origin="http://gifyoutube.com" subdomains="true" />
+	<access origin="https://gifyoutube.com" />
+	<access origin="http://img.ctrlv.in" />
+	<access origin="http://futurism.com" subdomains="true" />
+	<access origin="https://api.github.com" />
+	<access origin="http://memedad.com" />
+	<access origin="http://memedad.com" />
+	<access origin="http://memegen.com" subdomains="true" />
+	<access origin="https://onedrive.live.com" />
+	<access origin="http://1drv.ms" />
+	<access origin="https://api.photobucket.com" />
+	<access origin="http://radd.it" />
+	<access origin="https://radd.it" />
+	<access origin="http://redditbooru.com" />
+	<access origin="https://soundcloud.com" />
+	<access origin="http://vidble.com" />
+	<access origin="https://vidble.com" />
+	<icon src="logo.gif" />
+</widget>
